@@ -41,17 +41,17 @@ Từ việc chuyển đổi ra giá trị rating thực tế, sẽ lựa chọn 
 ## 2. K-Nearest Neighbors (KNN): 
 <img src="img/KNN.png" alt="KNN"> 
 
-### a. Initial Data (Dữ liệu ban đầu)
+### a. Dữ liệu ban đầu (Initial Data)
 - Dữ liệu được chia thành hai lớp:
   - **Class A**: biểu diễn bằng các ngôi sao màu đỏ.
   - **Class B**: biểu diễn bằng các tam giác màu xanh lá.
 - Một điểm dữ liệu mới (dấu "?") cần được phân loại.
 
-### b. Calculate Distance (Tính khoảng cách)
+### b. Tính khoảng cách (Calculate Distance)
 - Thuật toán tính khoảng cách giữa điểm cần phân loại (dấu "?") và các điểm trong tập dữ liệu.
 - Các đường nét đứt thể hiện khoảng cách giữa điểm mới và những điểm dữ liệu khác.
 
-### c. Finding Neighbors & Voting for Labels (Tìm hàng xóm & Bỏ phiếu nhãn)
+### c. Tìm hàng xóm & Bỏ phiếu nhãn (Finding Neighbors & Voting for Labels)
 - Xác định **k** điểm gần nhất (trong ví dụ: \( k = 3 \)).
 - Kiểm tra nhãn của \( k \) hàng xóm gần nhất:
    - Nếu đa số thuộc **Class A**, gán nhãn cho điểm mới là **Class A**.
