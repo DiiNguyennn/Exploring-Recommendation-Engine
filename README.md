@@ -23,6 +23,7 @@ Thuật toán K-Nearest Neighbors (KNN) là một phương pháp học không gi
 - **Tối ưu hóa hiệu suất:** KNN thường cần tối ưu hóa để xử lý khối lượng dữ liệu lớn và cải thiện thời gian phản hồi. Các kỹ thuật như Approximate Nearest Neighbors (ANN) có thể được sử dụng để giảm độ phức tạp tính toán.
 
 ***Ví dụ:*** Nếu người dùng A và người dùng B có lịch sử xem tương tự, gợi ý cho người dùng A có thể dựa trên những bộ phim mà người dùng B thích.
+
 # Nguyên lý hoạt động
 ## 1. Collaborative Filtering (Lọc cộng tác):
 <img src="img/Algorithm.png" alt="Algorithm Collaborative Filtering">
@@ -39,6 +40,7 @@ Từ việc chuyển đổi ra giá trị rating thực tế, sẽ lựa chọn 
 
 ## 2. K-Nearest Neighbors (KNN): 
 <img src="img/KNN.png" alt="KNN"> 
+
 ### a. Initial Data (Dữ liệu ban đầu)
 - Dữ liệu được chia thành hai lớp:
   - **Class A**: biểu diễn bằng các ngôi sao màu đỏ.
