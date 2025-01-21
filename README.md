@@ -56,4 +56,3 @@ Từ việc chuyển đổi ra giá trị rating thực tế, sẽ lựa chọn 
 - Kiểm tra nhãn của \( k \) hàng xóm gần nhất:
    - Nếu đa số thuộc **Class A**, gán nhãn cho điểm mới là **Class A**.
    - Nếu đa số thuộc **Class B**, gán nhãn cho điểm mới là **Class B**.
-- Trong ví dụ này, 2/3 điểm gần nhất thuộc **Class A** nên điểm mới được phân vào **Class A**.
