@@ -25,14 +25,17 @@ Thuật toán K-Nearest Neighbors (KNN) là một phương pháp học không gi
 ***Ví dụ:*** Nếu người dùng A và người dùng B có lịch sử xem tương tự, gợi ý cho người dùng A có thể dựa trên những bộ phim mà người dùng B thích.
 # Nguyên lý hoạt động
 ## 1. Collaborative Filtering (Lọc cộng tác):
-<img src="img/Algorithm.png" alt="Algorithm Collaborative Filtering"> 
+<img src="img/Algorithm.png" alt="Algorithm Collaborative Filtering">
+
 a) Lấy trung bình các cột.  
 b) Chuẩn hóa ma trận bằng cách trừ đi trung bình.  
 c) Tính hệ số tương quan của ma trận chuẩn hóa.  
 d) Dự đoán trên ma trận chuẩn hóa các vị trí chưa được rate.  
 e) Diễn giải công thức dự báo rating.  
 f) Chuyển đổi sang giá trị rating thực tế.  
-Từ việc chuyển đổi ra giá trị rating thực tế sẽ lựa chọn những rating có điểm cao và bắt đầu gợi ý cho người dùng.  
+
+Từ việc chuyển đổi ra giá trị rating thực tế, sẽ lựa chọn những rating có điểm cao và bắt đầu gợi ý cho người dùng.
+
 
 ## 2. K-Nearest Neighbors (KNN): 
 <img src="img/KNN.png" alt="KNN"> 
