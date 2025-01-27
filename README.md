@@ -1,4 +1,4 @@
-# Introduction  
+# Introduction.  
 The recommendation system analyzes user data and ranks movies based on personal preferences, creating a personalized content list. Its goal is to help users find content they love within 90 seconds. This system not only enhances user experience but also positively impacts businesses by increasing user engagement, reducing churn rates, and attracting new users.  
 
 ## User Benefits  
@@ -28,7 +28,7 @@ The **KNN algorithm** is an unsupervised learning method used for classification
 #### Example:  
 If User A and User B have similar viewing histories, recommendations for User A can be derived from movies liked by User B.  
 
-# Operating Principles  
+# Operating Principles.  
 
 ## 1. Collaborative Filtering  
 <img src="img/Algorithm.png" alt="Algorithm Collaborative Filtering">
